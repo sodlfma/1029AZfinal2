@@ -1,0 +1,8 @@
+sudo apt-get remove apache2*
+sudo apt-get --purge remove apache2*
+sudo apt-get autoremove
+
+sudo service apache-htcacheclean stop
+sudo apt-get remove apache*
+sudo apt-get --purge remove apache*
+sudo apt-get autoremove
