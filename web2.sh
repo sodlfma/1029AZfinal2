@@ -2,7 +2,7 @@
 sudo apt-get update -y
 sudo apt-get install -y apache2
 
-sudo usermod -a -G www-data user02
+sudo chmod -R 775 /var/www/html
 
 
 sudo echo "<html>" > /var/www/html/index.html
